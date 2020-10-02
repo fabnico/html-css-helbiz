@@ -104,6 +104,14 @@ html{
       padding: 0 20px;
    }
 
+   .container.header-bottom img{
+      height: 40px;
+   }
+
+   .logo > img{
+      width: 80px;
+   }
+
 }
 
 

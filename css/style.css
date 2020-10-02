@@ -1,0 +1,99 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+}
+
+html{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+}
+
+.header-top [class*="col-"]{
+   height: 80px;
+}
+
+.logo{
+   line-height: 80px;
+   text-align: center;
+}
+
+.logo > img{
+   width: 120px;
+}
+.nav-left{
+   text-align: right;
+   line-height: 80px;
+}
+
+.nav-right{
+   text-align: left;
+   line-height: 80px;
+}
+
+.nav-left > li, .nav-right > li{
+   display: inline-block;
+}
+
+.nav-left li a, .nav-right li a{
+   text-decoration: none;
+   color: #686868;
+   font-weight: 600;
+   font-size: 0.9rem
+}
+
+.nav-left li,.nav-right li{
+   margin-right: 15px;
+}
+
+.nav-right li:nth-child(2) a{
+   border-right: 2px solid #686868;
+   border-left: 2px solid #686868;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.container.header-bottom{
+   max-width: 1400px; /*Ho dovuto aumentarla per via del max-with del framework*/
+   background-image: url(../img/hero-bg.jpg);
+   background-size: cover;
+
+}
+
+.container.header-bottom > .h-b{
+   height: 600px;
+}
+
+.container.header-bottom img{
+   height: 50px;
+}
+
+.h-b{
+      position: relative;
+}
+
+.h-b-section{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+
+.h-b-section h1{
+   font-size: 40px;
+   color: white;
+}
+
+.h-b-section p{
+   font-size: 15px;
+   color: white;
+   margin: 15px 0;
+}
+
+
+
+/*
+.debug [class*="col-"]{
+   border: 1px solid black;
+} */

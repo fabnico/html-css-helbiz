@@ -91,6 +91,21 @@ html{
    margin: 15px 0;
 }
 
+/*Media query*/
+
+@media screen and (max-width:768px){
+
+   .menu{
+      text-align: right;
+      line-height: 80px;
+   }
+
+   .header-top{
+      padding: 0 20px;
+   }
+
+}
+
 
 
 /*

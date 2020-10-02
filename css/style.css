@@ -93,6 +93,19 @@ html{
 
 /*Media query*/
 
+@media screen and (min-width: 769px) and (max-width: 991px){
+
+   .menu{
+      text-align: right;
+      line-height: 80px;
+   }
+
+   .container.header-top{
+      padding: 0 20px;
+   }
+
+}
+
 @media screen and (max-width:768px){
 
    .menu{
@@ -100,7 +113,11 @@ html{
       line-height: 80px;
    }
 
-   .header-top{
+   .container.header-bottom > .h-b{
+      height: 400px;
+   }
+
+   .container.header-top{
       padding: 0 20px;
    }
 
@@ -113,10 +130,3 @@ html{
    }
 
 }
-
-
-
-/*
-.debug [class*="col-"]{
-   border: 1px solid black;
-} */
